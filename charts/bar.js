@@ -3,7 +3,7 @@ Vue.component('bar-chart', {
   props: ['data', 'options'],
   mounted () {
     var data = this.data || {
-      labels: ["BC","MB","NB","NL","NS","NT","ON","PE","QC","SK","YT","NONE Specified"],
+      labels: ["AB", "BC","MB","NB","NL","NS","NT","ON","PE","QC","SK","YT","NONE Specified"],
       datasets: [
         {
           label: 'Number of victims of text-message fraud by province (Canada)',
